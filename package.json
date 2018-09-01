@@ -1,0 +1,43 @@
+{
+  "name": "react-context-data",
+  "version": "0.9.1",
+  "description": "React data flow solution with context api",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production babel src --out-dir lib",
+    "test": "jest --env=jsdom",
+    "cov": "jest --env=jsdom --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lhz516/react-context-data"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "data",
+    "context"
+  ],
+  "author": "Hanz Luo",
+  "license": "MIT",
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^9.0.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.4.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
