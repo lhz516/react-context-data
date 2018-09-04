@@ -1,6 +1,6 @@
 {
   "name": "react-context-data",
-  "version": "0.9.1",
+  "version": "0.10.0",
   "description": "React data flow solution with context api",
   "main": "lib/index.js",
   "scripts": {
